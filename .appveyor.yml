@@ -6,7 +6,7 @@ max_jobs: 1
 #clone_depth: 5
 branches:
   only:
-  - master
+  - main
 #build:
 #  verbosity: minimal
 
@@ -44,8 +44,8 @@ environment:
     secure: YOUR_CHOCO_API_KEY_HERE_ENCRYPTED_STRING # https://ci.appveyor.com/tools/encrypt
 
 init:
-- git config --global user.email "chocolatey@realdimensions.net"
-- git config --global user.name "Chocolatey"
+- git config --global user.email "levi@levi.earth"
+- git config --global user.name "Levi Bostian"
 - git config --global core.safecrlf false
 
 install:

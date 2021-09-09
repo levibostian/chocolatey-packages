@@ -19,6 +19,12 @@ To run locally you will need:
 
 - Powershell 5+.
 - [Chocolatey Automatic Package Updater Module](https://github.com/majkinetor/au): `Install-Module au` or `cinst au`.
+- Install VSCode marketplace Powershell plugin. You can then click the Run button in the corner of each `.ps1` file you open up to test it out. 
+- Add...
+```
+Import-Module "C:\ProgramData\chocolatey\helpers\chocolateyInstaller.psm1"
+```
+...to the top of the .ps1 file that you want to test. Learn more: https://stackoverflow.com/a/35579220
 
 In order to setup AppVeyor update runner please take a look at the AU wiki [AppVeyor section](https://github.com/majkinetor/au/wiki/AppVeyor).
 
