@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>freetube</id>
+    <version>0.14.0</version>
+    <title>Freetube</title>
+    <authors>Levi Bostian</authors>
+    <iconUrl>https://cdn.staticaly.com/gh/levibostian/chocolatey-packages/main/icons/freetube.png</iconUrl>
+    <licenseUrl>https://github.com/FreeTubeApp/FreeTube/blob/development/LICENSE</licenseUrl>
+    <projectUrl>https://freetubeapp.io/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+The Private YouTube Client
+</description>
+    <summary>The Private YouTube Client</summary>
+    <tags>youtube freetube privacy</tags>
+    <releaseNotes />
+    <packageSourceUrl>https://github.com/levibostian/chocolatey-packages/</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/FreeTubeApp/FreeTube/issues</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
