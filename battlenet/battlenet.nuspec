@@ -3,7 +3,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>battlenet</id>
-    <version>live</version>
+    <!-- version of battle.net launcher after it's installed (go to About section in app). This may be out-of-date but because the setup.exe downloads the latest installer, this is the best version string we can find -->
+    <!-- shttps://docs.chocolatey.org/en-us/create/create-packages#versioning-recommendations -->
+    <version>2.5.0</version>
     <title>Battle.net</title>
     <authors>Levi Bostian</authors>
     <iconUrl>https://cdn.staticaly.com/gh/levibostian/chocolatey-packages/main/icons/battlenet.png</iconUrl>
@@ -11,12 +13,12 @@
     <projectUrl>https://www.blizzard.com/apps/battle.net/desktop</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-World-renowned and critically-acclaimed games from franchises like Warcraft, Overwatch, Diablo, StarCraft, and Call of Duty—available on PC only through Battle.net.
+Purchase, download, and play games from Blizzard.
 </description>
     <summary>Battle.net game launcher</summary>
     <tags>blizzard battle.net battlenet games gaming</tags>
     <releaseNotes />
-    <packageSourceUrl>https://github.com/mikecole/chocolatey-packages/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/levibostian/chocolatey-packages/</packageSourceUrl>
     <bugTrackerUrl>https://blizzard.com/support</bugTrackerUrl>
   </metadata>
   <files>
