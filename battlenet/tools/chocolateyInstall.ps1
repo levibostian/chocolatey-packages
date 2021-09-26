@@ -2,7 +2,7 @@
 
 $ErrorActionPreference = 'Stop'
 # powershell: `Get-FileHash .\Battlenet.exe -Algorithm SHA256`
-$checksum = '2DBBE3C5C5F88F4BE7A36A8C8D6FB7998F55E6D54C15CDDFC9DB9BFDD8F01F45'
+$checksum = '585A0197280363E5A1CEA618CE080861994A19541EA8064B19CD409B52CBF190'
 
 # How I got the below information:
 # Open webpage where you download the windows battle.net launcher. 
